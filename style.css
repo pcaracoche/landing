@@ -28,6 +28,7 @@
 	font-size: 20px;
 	font-weight: bold;
 	border: none;
+	transition: .4s linear;
 }
 
 
@@ -37,7 +38,7 @@ body{
 	font-family: "Roboto", sans-serif;
 	margin: 0;
 	background-color: gray;
-	background: linear-gradient(#2D3142,#929AA9);
+	background: linear-gradient(x,#929AA9);
 }
 
 h1 {
@@ -93,6 +94,7 @@ h3 {
 	margin: 0px 20px;
 	text-align: center;
 	cursor: pointer;
+	transition: .4s linear;
 
 
 }
