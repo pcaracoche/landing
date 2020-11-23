@@ -1,0 +1,151 @@
+
+/*BANNER*/
+
+.banner-wrap{
+	background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/pmfJcN7RGiw/1600x900");
+	background-size: cover;
+	background-position: center;
+	padding: 100px 50px ;
+	text-align: center;
+	
+}
+
+.banner-wrap p{
+	color: white;
+	font-size: 24px;
+	opacity: 0.85;
+
+}
+
+.banner-wrap button{
+	cursor: pointer;
+	background-color: #2D3142;
+	color: white;
+	padding: 6px 48px;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
+
+
+/*BODY*/
+
+body{
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	background-color: gray;
+	background: linear-gradient(#2D3142,#929AA9);
+}
+
+h1 {
+	color: white;
+	font-size: 45px;
+	margin: 0;
+	font-weight: bold;
+}
+
+h2 {
+	color: white;
+	font-size: 25 px;
+	margin: 10px;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: white;
+	font-size: 20 px;
+	margin: 15px;
+	font-weight: bold;
+	text-align: left;
+	left: 0;
+} 
+
+.card-wrap{
+	width: 1080px;
+	margin: 30px auto;
+	color: white;
+
+}
+
+.card-wrap h2	{
+	color: white;
+}
+
+.card-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.card{
+	 
+	background: #5F6C82;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 12px;
+	margin: 0px 20px;
+	text-align: center;
+	cursor: pointer;
+
+
+}
+
+.card img{ 
+	height: 200px;
+	width: 300px;
+
+}
+
+.card h3{ 
+	text-align: center;
+
+}
+
+/*EFECTOS*/
+
+.banner-wrap button:hover{
+	-webkit-transform: scale(1.15);
+    transform: scale(1.15);
+	transition: .4s linear;
+}
+
+.card:hover {
+	background: #2D3142;
+	-webkit-transform: scale(1.075);
+    transform: scale(1.075);
+	transition: .4s linear;
+}
+
+
+/*FOOTER*/
+
+footer {
+	background: #2D3142;
+	color: white;
+	padding: 30px 50px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+
+} 
+
+input {
+	width: 330px;
+	height: 25px;
+}
+
+.text {
+	 
+	position: relative;left: 575px;
+
+}
+
+
